@@ -2,7 +2,7 @@
 ##### May 23, 2015
 ## Description for run_analysis.R script
 
- **Note:** Script is written on windows platform. To execute it on OSX, changes to path variables will be required. "\\\" needs to replaced with "/".
+ **Note:** Script is written on Windows Platform. To execute it on OSX, changes to path variables will be required. "\\\" needs to replaced with "/".
 ##### 1.  Download and Unzip Data
 ```
   url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
