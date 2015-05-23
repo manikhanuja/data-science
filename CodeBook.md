@@ -16,8 +16,8 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ## Attribute Information:
-*Subject:* the integer subject ID. There are 30 subjects within an age bracket of 19-48 years.   
-*Activity:* the string activity name
+*subject:* the integer subject ID. There are 30 subjects within an age bracket of 19-48 years.   
+*activity:* the string activity name
 - Walking
 - Walking Upstairs
 - Walking Downstairs
@@ -26,5 +26,18 @@ For each record in the dataset it is provided:
 - Laying  
 
 #### Measurement Means
+All variables are the mean of a measurement for each subject and activity. This is indicated by the initial Mean in the variable name. All values are floating point numbers.
 
+   - Time domain body acceleration mean along X, Y, and Z:   
+     * *timeBodyAccelerometer-mean()-X*   
+     * *timeBodyAccelerometer-mean()-Y*   
+     * *timeBodyAccelerometer-mean()-Z*
+   - Time domain body acceleration standard deviation along X, Y, and Z:
+     * *timeBodyAccelerometer-std()-X*
+     * *timeBodyAccelerometer-std()-Y*
+     * *timeBodyAccelerometer-std()-Z*
+   - Time domain gravity acceleration mean along X, Y, and Z:
+     * *timeGravityAccelerometer-mean()-X*
+     * *timeGravityAccelerometer-mean()-Y*
+     * *timeGravityAccelerometer-mean()-Z*
 
