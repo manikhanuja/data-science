@@ -77,15 +77,33 @@ All variables are the mean of a measurement for each subject and activity. This 
    - Time domain gravity acceleration magnitude standard deviation:
       * *timeGravityAccelerometerMagnitude-std()*
    - Time domain body jerk magnitude mean:
+     * *timeBodyAccelerometerJerkMagnitude-mean()*
    - Time domain body jerk magnitude standard deviation:
+     * *timeBodyAccelerometerJerkMagnitude-std()*
    - Time domain gyroscope magnitude mean:
+     * *timeBodyGyroscopeMagnitude-mean()*
    - Time domain gyroscope magnitude standard deviation:
+     * *timeBodyGyroscopeMagnitude-std()*
    - Time domain gyroscope jerk magnitude mean:
+     * *timeBodyGyroscopeJerkMagnitude-mean()*
    - Time domain gyroscope jerk magnitude standard deviation:
+     * *timeBodyGyroscopeJerkMagnitude-std()*
    - Frequency domain body acceleration mean along X, Y, and Z:
+     * *frequencyBodyAccelerometer-mean()-X*
+     * *frequencyBodyAccelerometer-mean()-Y*
+     * *frequencyBodyAccelerometer-mean()-Z*
    - Frequency domain body acceleration standard deviation along X, Y, and Z:
+     * *frequencyBodyAccelerometer-std()-X*
+     * *frequencyBodyAccelerometer-std()-Y*
+     * *frequencyBodyAccelerometer-std()-Z*
    - Frequency domain body jerk mean along X, Y, and Z:
+     * *frequencyBodyAccelerometerJerk-mean()-X*
+     * *frequencyBodyAccelerometerJerk-mean()-Y*
+     * *frequencyBodyAccelerometerJerk-mean()-Z*
    - Frequency domain body jerk standard deviation along X, Y, and Z:
+     * *frequencyBodyAccelerometerJerk-std()-X*
+     * *frequencyBodyAccelerometerJerk-std()-Y*
+     * *frequencyBodyAccelerometerJerk-std()-Z*
    - Frequency domain gyroscope mean along X, Y, and Z:
    - Frequency domain gyroscope standard deviation along X, Y, and Z:
    - Frequency domain body acceleration magnitude mean:
