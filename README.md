@@ -98,7 +98,7 @@ tail(combineSubjectData)
 ```
 ##### 6. Extracts only the measurements on the mean & standard deviation for each measurement
 
-###### a)Assign Column Names to combine data set
+###### a) Assign Column Names to combine data set
 ```
 columnNames <- read_Features[,2]
 head(columnNames)
@@ -151,5 +151,11 @@ write.table(tidy_data, file = "tidydata.txt",row.name=FALSE)
 ```
 
 ##### 10. Read the data set created using above script
+
+```
+address <- "https://s3.amazonaws.com/coursera-uploads/user-123bc56f167bc2d7ee7e3866/973501/asst-3/6c0b2650011111e59197e926d8e67b6a.txt"
+address <- sub("^https", "http", address)
+data <- read.table(url(address), header = TRUE) 
+View(data)
 
 ```
