@@ -105,15 +105,39 @@ All variables are the mean of a measurement for each subject and activity. This 
      * *frequencyBodyAccelerometerJerk-std()-Y*
      * *frequencyBodyAccelerometerJerk-std()-Z*
    - Frequency domain gyroscope mean along X, Y, and Z:
+     * *frequencyBodyGyroscope-mean()-X*
+     * *frequencyBodyGyroscope-mean()-Y*
+     * *frequencyBodyGyroscope-mean()-Z*
    - Frequency domain gyroscope standard deviation along X, Y, and Z:
+     * *frequencyBodyGyroscope-std()-X*
+     * *frequencyBodyGyroscope-std()-Y*
+     * *frequencyBodyGyroscope-std()-Z*
    - Frequency domain body acceleration magnitude mean:
+     * *frequencyBodyAccelerometerMagnitude-mean()*
    - Frequency domain body acceleration magnitude standard deviation:
+     * *frequencyBodyAccelerometerMagnitude-std()*
    - Frequency domain body jerk magnitude mean:
+     * *frequencyBodyAccelerometerJerkMagnitude-mean()*
    - Frequency domain body jerk magnitude standard deviation:
+     * *frequencyBodyAccelerometerJerkMagnitude-std()*
    - Frequency domain gyroscope magnitude mean:
+     * *frequencyBodyGyroscopeMagnitude-mean()*
    - Frequency domain gyroscope magnitude standard deviation:
+     * *frequencyBodyGyroscopeMagnitude-std()*
    - Frequency domain gyroscope jerk magnitude mean:
+     * *frequencyBodyGyroscopeJerkMagnitude-mean()*
    - Frequency domain gyroscope jerk magnitude standard deviation:
+     * *frequencyBodyGyroscopeJerkMagnitude-std()*
+   - Frequeny domain body acceleration mean frequency along X, Y, and Z:
+     * *frequencyBodyAccelerometerJerk-meanFreq()-X*
+     * *frequencyBodyAccelerometerJerk-meanFreq()-Y*
+     * *frequencyBodyAccelerometerJerk-meanFreq()-Z*
+   - Frequency domain body acceleration magnitude mean frequency:
+     * *frequencyBodyAccelerometerMagnitude-meanFreq()*
+   - Frequency domain body jerk magnitude mean frequency:
+     * *frequencyBodyAccelerometerJerkMagnitude-meanFreq()*
+   - Frequency domain gyroscope magnitude mean frequency:
+     * *frequencyBodyGyroscopeJerkMagnitude-meanFreq()*
 
 
 
