@@ -25,7 +25,7 @@ For each record in the dataset it is provided:
 - Standing
 - Laying  
 
-#### Measurement Means
+#### Transformation Performed on Measurement Means
 All variables are the mean of a measurement for each subject and activity. This is indicated by the initial Mean in the variable name. All values are floating point numbers.
 
    - Time domain body acceleration mean along X, Y, and Z:   
