@@ -3,9 +3,9 @@
 
 Abstract: Dataset is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-| No. of Observations| No. of Attributes | Data Set Characteristics |
-| ------------- |:-------------:| -----:|
-| 10299    | 81 | Multivariate, Time-Series |
+| No. of Observations| No. of Attributes | Data Set Characteristics | No. of Missing Values
+| ------------- |:-------------:| -----:|-----:|
+| 10299    | 81 | Multivariate, Time-Series | 0 
 
 ## Data Set Information
 For each record in the dataset it is provided: 
@@ -16,11 +16,11 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ## Transformation Performed on Measurement Means
-All variables are the mean of a measurement for each subject and activity. This is indicated by the initial Mean in the variable name. All values are floating point numbers.
+All attributes in the resulting data set are the average of each variable for each activity and subject. Data type for all the columns except subject & activity is numeric. Subject is integer & activity belongs to factor class. Further details are provided in the Attribute Information section below.
 
 ## Attribute Information:
  - *subject:* the integer subject ID. There are 30 subjects within an age bracket of 19-48 years.   
- - *activity:* the string activity name
+ - *activity:* the factor activity name, with the following 6 levels.
      * Walking
      * Walking Upstairs
      * Walking Downstairs
@@ -28,6 +28,7 @@ All variables are the mean of a measurement for each subject and activity. This 
      * Standing
      * Laying
 
+Following attributes are numeric:
 - Time domain body acceleration mean along X, Y, and Z:   
      * *timeBodyAccelerometer-mean()-X*   
      * *timeBodyAccelerometer-mean()-Y*   
