@@ -6,7 +6,7 @@ fileName <- "run_analysis.zip"
 
         print(fileName)
         if(!file.exists(fileName)){
-                download.file(url,fileName, mode = mode)
+                download.file(url,fileName, method = "curl")
                 list.files(destinationFolder)
                 dateDownloaded <- date()
         }
