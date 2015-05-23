@@ -40,4 +40,37 @@ All variables are the mean of a measurement for each subject and activity. This 
      * *timeGravityAccelerometer-mean()-X*
      * *timeGravityAccelerometer-mean()-Y*
      * *timeGravityAccelerometer-mean()-Z*
+   - Time domain gravity acceleration standard deviation along X, Y, and Z:
+   - Time domain body jerk mean along X, Y, and Z:
+   - Time domain body jerk standard deviation along X, Y, and Z:
+   - Time domain gyroscope mean along X, Y, and Z:
+   - Time domain gyroscope standard deviation along X, Y, and Z:
+   - Time domain gyroscope jerk mean along X, Y, and Z:
+   - Time domain gyroscope jerk standard deviation along X, Y, and Z:
+   - Time domain body acceleration magnitude mean:
+   - Time domain body acceleration magnitude standard deviation:
+   - Time domain gravity acceleration magnitude mean:
+   - Time domain gravity acceleration magnitude standard deviation:
+   - Time domain body jerk magnitude mean:
+   - Time domain body jerk magnitude standard deviation:
+   - Time domain gyroscope magnitude mean:
+   - Time domain gyroscope magnitude standard deviation:
+   - Time domain gyroscope jerk magnitude mean:
+   - Time domain gyroscope jerk magnitude standard deviation:
+   - Frequency domain body acceleration mean along X, Y, and Z:
+   - Frequency domain body acceleration standard deviation along X, Y, and Z:
+   - Frequency domain body jerk mean along X, Y, and Z:
+   - Frequency domain body jerk standard deviation along X, Y, and Z:
+   - Frequency domain gyroscope mean along X, Y, and Z:
+   - Frequency domain gyroscope standard deviation along X, Y, and Z:
+   - Frequency domain body acceleration magnitude mean:
+   - Frequency domain body acceleration magnitude standard deviation:
+   - Frequency domain body jerk magnitude mean:
+   - Frequency domain body jerk magnitude standard deviation:
+   - Frequency domain gyroscope magnitude mean:
+   - Frequency domain gyroscope magnitude standard deviation:
+   - Frequency domain gyroscope jerk magnitude mean:
+   - Frequency domain gyroscope jerk magnitude standard deviation:
+
+
 
